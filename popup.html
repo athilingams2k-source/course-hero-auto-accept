@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Course Hero Alert</title>
+  <style>
+    body { font-family: Arial, sans-serif; width: 280px; padding: 14px; }
+    h3 { margin: 0 0 12px; }
+    .card { background: #fff; border: 1px solid #e5e5e5; border-radius: 10px; padding: 12px; margin: 10px 0; }
+    .row { display:flex; justify-content:space-between; align-items:center; gap:12px; margin: 8px 0; }
+    .hint { font-size: 12px; color: #666; margin-top: 6px; }
+    input[type="number"] { width: 80px; padding: 6px; }
+    .title { font-weight: 700; margin-bottom: 8px; }
+  </style>
+</head>
+
+<body>
+  <h3>Course Hero Alert</h3>
+
+  <div class="card">
+    <div class="title">Auto accept question</div>
+    <div class="row">
+      <span>Enable</span>
+      <input type="checkbox" id="autoAccept">
+    </div>
+    <div class="hint">When enabled, it will click the Accept/Start button automatically.</div>
+  </div>
+
+  <div class="card">
+    <div class="title">Refresh interval</div>
+    <div class="row">
+      <span>Seconds</span>
+      <input type="number" id="interval" min="2" value="3">
+    </div>
+    <div class="hint">How often the page is checked for a new question.</div>
+  </div>
+
+  <div class="card">
+    <div class="title">Play audio on loop</div>
+    <div class="row">
+      <span>Enable</span>
+      <input type="checkbox" id="loopAudio">
+    </div>
+    <div class="hint">Plays the alert audio repeatedly for 60 seconds.</div>
+  </div>
+
+  <div class="card">
+    <div class="title">Toast notification</div>
+    <div class="row">
+      <span>Enable</span>
+      <input type="checkbox" id="toast">
+    </div>
+    <div class="hint">Shows a bottom-right message when a question is detected.</div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

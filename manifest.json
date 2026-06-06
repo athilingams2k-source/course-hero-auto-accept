@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "Course Hero Auto Accept",
+  "version": "1.0.0",
+  "description": "Auto accepts Course Hero questions and plays audio alert with toast notification.",
+
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
+
+  "host_permissions": [
+    "https://www.coursehero.com/*"
+  ],
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.coursehero.com/qa/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+
+  "action": {
+    "default_popup": "popup.html"
+  },
+
+  "web_accessible_resources": [
+    {
+      "resources": ["audio/question.mp3"],
+      "matches": ["https://www.coursehero.com/*"]
+    }
+  ]
+}
