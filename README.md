@@ -1,21 +1,21 @@
-# 🚀 Course Hero Auto Accept Extension
+#  Course Hero Auto Accept Extension
 
-## 📌 Overview
+##  Overview
 This Chrome Extension automatically detects Course Hero questions, accepts them, and plays a 1-minute audio alert with a toast notification.
 
 ---
 
-## ⚙️ Features
-- ✅ Auto Accept Course Hero questions
-- 🔊 Plays 1-minute looping audio alert
-- 📢 Toast notification (bottom-right popup)
-- ⏱ Configurable refresh interval
-- 🎛 Enable/Disable controls via popup
-- 💾 Saves settings in Chrome storage
+##  Features
+-  Auto Accept Course Hero questions
+-  Plays 1-minute looping audio alert
+-  Toast notification (bottom-right popup)
+-  Configurable refresh interval
+-  Enable/Disable controls via popup
+-  Saves settings in Chrome storage
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 audio/
 └── question.mp3
 
@@ -29,7 +29,7 @@ README.md
 
 ---
 
-## 🛠 Installation
+## Installation
 
 1. Clone or download this repository
 2. Open Chrome and go to:
@@ -43,7 +43,7 @@ chrome://extensions/
 
 ---
 
-## 🔊 How Audio Works
+##  How Audio Works
 
 - Plays when a new question is detected
 - Automatically stops after 60 seconds
@@ -51,7 +51,7 @@ chrome://extensions/
 
 ---
 
-## 🧠 Tech Stack
+## Tech Stack
 
 - JavaScript (Vanilla)
 - Chrome Extension Manifest V3
@@ -61,18 +61,18 @@ chrome://extensions/
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 _Add screenshots here (optional but recommended)_
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This project is for educational and automation testing purposes only.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Developed by **ATHILINGAM S**
