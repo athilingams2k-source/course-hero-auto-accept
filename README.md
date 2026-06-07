@@ -75,4 +75,4 @@ This project is for educational and automation testing purposes only.
 
 ## 👨‍💻 Author
 
-Developed by Aravindhan
+Developed by **ATHILINGAM S**
